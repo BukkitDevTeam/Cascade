@@ -117,6 +117,7 @@
                 <configuration>
                     <source>1.6</source>
                     <target>1.6</target>
+                    <showDeprecation>true</showDeprecation>
                 </configuration>
             </plugin>
             <plugin>
@@ -126,7 +127,7 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Main-Class>com.md_5.fondue.Main</Main-Class>
+                            <Main-Class>com.md_5.cascade.Main</Main-Class>
                             <Implementation-Title>${project.name}</Implementation-Title>
                             <Implementation-Version>${describe}</Implementation-Version>
                             <Implementation-Vendor>${project.organization.name}</Implementation-Vendor>

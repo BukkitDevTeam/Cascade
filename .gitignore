@@ -32,3 +32,6 @@
 *.ipr
 *.iws
 .idea/
+
+# files created by running the server
+/server

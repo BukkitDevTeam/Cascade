@@ -595,7 +595,7 @@ public abstract class MinecraftServer implements Runnable, IPlayerUsage, IComman
         StatList.func_75919_a();
 
         try {
-            boolean var1 = !GraphicsEnvironment.isHeadless();
+            boolean var1 = false; // Cascade: Always disable the gui
             String var2 = null;
             String var3 = ".";
             String var4 = null;
@@ -794,7 +794,7 @@ public abstract class MinecraftServer implements Runnable, IPlayerUsage, IComman
     }
 
     public String getServerModName() {
-        return "vanilla";
+        return "Cascade"; // Cascade: We are Cascade!
     }
 
     /**
